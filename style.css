@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #1e293b;
+    background: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+}
+
+.navbar h2 {
+    color: #635bff;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #475569;
+}
+
+.btn {
+    display: inline-block;
+    background: #635bff;
+    color: white;
+    padding: 13px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.hero {
+    min-height: 480px;
+    padding: 80px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f5f6ff;
+}
+
+.hero-content {
+    max-width: 550px;
+}
+
+.tag {
+    color: #635bff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.hero p {
+    color: #64748b;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.circle {
+    width: 220px;
+    height: 220px;
+    background: linear-gradient(135deg, #635bff, #a78bfa);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 90px;
+}
+
+.services {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.services > p {
+    color: #64748b;
+    margin: 15px 0 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    flex: 1;
+    padding: 30px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.card span {
+    font-size: 35px;
+}
+
+.card h3 {
+    margin: 20px 0 10px;
+}
+
+.card p {
+    color: #64748b;
+    line-height: 1.6;
+}
+
+.contact {
+    text-align: center;
+    padding: 70px 20px;
+    background: #f5f6ff;
+}
+
+.contact p {
+    margin: 15px 0 25px;
+    color: #64748b;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+    color: #64748b;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .links {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+}

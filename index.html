@@ -3,23 +3,77 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi primera página</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaTech | Soluciones digitales</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Bienvenido a mi página</h1>
+    <header>
+        <nav class="navbar">
+            <h2>NovaTech.</h2>
+            <div class="links">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <a href="#contacto" class="btn">Empezar</a>
+        </nav>
+    </header>
 
-    <p>Esta es una página HTML sencilla.</p>
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <span class="tag">INNOVACIÓN DIGITAL</span>
+                <h1>Transformamos ideas en soluciones digitales.</h1>
+                <p>
+                    Creamos experiencias tecnológicas que ayudan
+                    a las empresas a crecer y alcanzar sus objetivos.
+                </p>
+                <a href="#servicios" class="btn">Conocer más →</a>
+            </div>
+            <div class="hero-image">
+                <div class="circle">🚀</div>
+            </div>
+        </section>
 
-    <h2>Mis tecnologías favoritas</h2>
+        <section class="services" id="servicios">
+            <h2>Nuestros servicios</h2>
+            <p>Soluciones pensadas para tu crecimiento.</p>
 
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
+            <div class="cards">
+                <article class="card">
+                    <span>💻</span>
+                    <h3>Desarrollo Web</h3>
+                    <p>Aplicaciones modernas y adaptables a cualquier dispositivo.</p>
+                </article>
 
-    <button>Haz clic aquí</button>
+                <article class="card">
+                    <span>⚙️</span>
+                    <h3>Automatización</h3>
+                    <p>Optimizamos procesos mediante soluciones tecnológicas.</p>
+                </article>
+
+                <article class="card">
+                    <span>☁️</span>
+                    <h3>Cloud Computing</h3>
+                    <p>Infraestructura escalable y servicios en la nube.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact" id="contacto">
+            <h2>¿Listo para comenzar?</h2>
+            <p>Construyamos juntos tu próximo proyecto.</p>
+            <a href="mailto:contacto@novatech.com" class="btn">
+                Contáctanos
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 NovaTech. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 </html>
