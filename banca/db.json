@@ -1,0 +1,26 @@
+{
+    "cuentas": [
+        {
+            "id": "1",
+            "numero_cuenta": "1234567890",
+            "tipo_cuenta": "Ahorros",
+            "saldo": 1000.50
+        },
+        {
+            "id": "2",
+            "numero_cuenta": "0987654321",
+            "tipo_cuenta": "Corriente",
+            "saldo": 2500.75
+        },
+        {
+            "id": "3",
+            "numero_cuenta": "1122334455",
+            "tipo_cuenta": "Ahorros",
+            "saldo": 500.00
+        }
+
+    ],
+    "transacciones": [
+        
+    ]
+}
